@@ -8,7 +8,7 @@ public class ShapeFactory {
         Shape shape = null;
 
         if(shapeName.equalsIgnoreCase("Cycle")){
-            shape = new Cycle();
+            shape = new Circle();
         }
 
         if(shapeName.equalsIgnoreCase("Rectangle")){

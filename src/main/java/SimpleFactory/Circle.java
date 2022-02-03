@@ -1,6 +1,6 @@
 package SimpleFactory;
 
-public class Cycle implements Shape{
+public class Circle implements Shape{
 
     @Override
     public void draw(){

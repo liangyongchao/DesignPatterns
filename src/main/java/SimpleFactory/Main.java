@@ -1,12 +1,8 @@
-import SimpleFactory.Shape;
-import SimpleFactory.ShapeFactory;
-import org.junit.Test;
+package SimpleFactory;
 
-public class SimpleFactoryTest {
+public class Main {
 
-    @Test
-    public void ShapeTest()
-    {
+    public static void main(String[] args) {
         /**
          * 优点：
          * 工厂类包含必要的逻辑判断，可以决定在什么时候创建哪一个产品的实例。客户端可以免除直接创建产品对象的职责，很方便的创建出相应的产品。工厂和产品的职责区分明确。
@@ -32,5 +28,4 @@ public class SimpleFactoryTest {
 
         other.draw();
     }
-
 }
