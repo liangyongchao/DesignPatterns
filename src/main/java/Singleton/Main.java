@@ -38,3 +38,5 @@ class MainWindow{
         System.out.println("Singleton test. cnt = " + cnt);
     }
 }
+
+
